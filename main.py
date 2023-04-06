@@ -10,7 +10,7 @@ with open('./config.json') as f:
   for c in data['Config']:
         print('Loading...')
 channelid = c['channelid'] #modify this in config.json
-token = "MTA5MjQwMDIzMTIzNDE1ODY4Mw.Gn-0D0.Bgkk7iVB3LZ2dkOcMVrl-udHvQOryYecaTyuic" #modify this in config.json
+token = "" #modify this in config.json
 message = c['message'] #modify this in config.json
 web = c['web'] #modify this in config.json
 header_data = { 
